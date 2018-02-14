@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<header>
+<meta charset="utf-8" />
+<title>THAT'S Fucking Funny</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="project2.1css.css">
+<script type="text/javascript" src="jquery-1.js"></script>
+<script type="text/javascript" src="proj2.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</header>
+<body id="wrapper">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+
+			<!--- Logo -->
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<a href="#" class="navbar-brand" onclick="funky()">THAT'S Fucking Funny</a>
+			</div>
+			<!--menu items -->
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav">
+
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Most Viewed <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">2 Girls 1 Cup</a></li>
+						<li><a href="#">Donald Trump Compilation</a></li>
+						<li><a href="#">Macaroni Time - Chief Keef</a></li>
+					</ul>
+					</li>	
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Highest Rated <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						<li><a href="#">Entry 1</a></li>
+						<li><a href="#">Entry 2</a></li>
+						<li><a href="#">Entry 3</a></li>
+						</ul>			
+					</li>
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Fights <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Entry 1</a></li>
+						<li><a href="#">Entry 2</a></li>
+						<li><a href="#">Entry 3</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Search <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><input type="text"></a></li>
+						</ul>
+					</li>
+					<li id="fuckingFunny" class="dropdown"><a href="#">
+						Fucking Funniest
+					</a></li>
+					<li id="fuckingStupid" class="dropdown"><a href="#">
+						Fucking Stupidest
+					</a></li>
+				</ul>	
+			</div>
+		</div>
+	</nav>
+<br />
+<br />
+	<div class="container">
+		<div class="row" id="videos" style="Background-color: #B3B3B3">
+			<div class="col-xs-7" id="videos2" style="Background-color: #00688B">
+				<h1 id="blueLinks">Video Of The Day</h1>
+				<h3><a id="blueLinks" class="active" href="#">The Evolution of Dance!</a></h3>
+					<iframe width="635" height="340" src="https://www.youtube.com/embed/dMH0bHeiRNg" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<h1 class="meter"><div id="funnyNumber">0</div> - <div id="stupidNumber">0</div></h1>
+			<div id="rate">
+				<img id="funny" src="Untitled-1.gif">
+
+				<img id="stupid" src="Untitled-2.gif">
+			</div>
+		</div>
+		<br />
+
+		<div id="recentVideos" class="col-xs-7" style="background-color:#454545">
+				<h3 class="recentHead"><a id="blueLinks" class="active" href="https://www.youtube.com/watch?v=wCF3ywukQYA&t=6s">Shoes (Full Version - Official)</a></h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wCF3ywukQYA" frameborder="0" allowfullscreen></iframe>
+					<div id="buttonRow" class="row">
+				<img id="funny" src="Untitled-1.gif">
+
+				<img id="stupid" src="Untitled-2.gif">
+					</div>
+					<br />
+				<h3 class="recentHead"><a id="blueLinks" class="active" href="https://www.youtube.com/watch?v=XHVKLBpSW-8">ASSASSIN'S CREED ITEMS IN REAL LIFE</a></h3>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/XHVKLBpSW-8" frameborder="0" allowfullscreen></iframe>
+						<div id="buttonRow" class="row">
+						<img id="funny" src="Untitled-1.gif">
+						<img id="stupid" src="Untitled-2.gif">
+						</div>
+		</div>
+	</div>
+</body>
+</html>

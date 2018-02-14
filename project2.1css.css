@@ -1,0 +1,73 @@
+/*
+Color List:
+Pale Blue & Blue: #B4CDCD #00688B
+Black & Greys: #454545 #DEDEDE #2B2B2B #515151
+white: #F2F2F2;
+greys: #AAAAAA;
+red: #CD5555;
+*/
+
+#wrapper{
+	background: -webkit-linear-gradient(left top, #B4CDCD, #F2F2F2);
+}
+.nav.navbar-nav li a{
+    color: #AAAAAA;
+}
+/*
+#fuckingFunny.dropdown{
+	color: ;
+}
+#fuckingStupid.dropdown{
+	color: #CD5555;
+}*/
+.meter{
+-webkit-transform: translate(30px,212px);
+}
+#funnyNumber{
+	color: #00688B;
+	text-shadow: -1.7px 1.85px #2B2B2B;
+}
+#stupidNumber{
+	color: #CD0000;
+	text-shadow: -1.7px 1.85px #2B2B2B;
+}
+#videos{
+	border: 4.25px solid #2B2B2B;
+	border-radius: 0px 0px 35px 12px;
+}
+#videos2{
+	border-right: 6.5px solid #2B2B2B;
+	border-radius: 0px 0px 0px 8px;
+}
+#rate{
+	-webkit-transform: translate(160px, 0px);
+}
+#funny, #stupid{
+	border-radius: 20px;
+	border-top: 2px solid #2B2B2B;
+	border-bottom: 2px solid #2B2B2B;
+}
+#funny:hover, #stupid:hover{
+	border: 4.5px solid #F2F2F2;
+	border-radius: 28px;
+}
+#buttonRow{
+	padding: 8.5px;
+}
+/*link HTML elements to this ID to get rid of the blue font color on links*/ 
+#blueLinks{
+	color: #DEDEDE;
+}
+/*------------*/
+#recentVideos{
+	border: 3px solid white;
+	border-radius: 30px 8px 5px 5px;
+	float: right;
+}
+#navbar-header{
+	color: #B4CDCD;
+}
+.recentHead{
+	border-top: 4px solid #B4CDCD;
+	width: 525px;
+}
